@@ -20,7 +20,7 @@
     }
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 768px) {
     .cover {
         margin: 90px -24px 64px;
         min-height: 350px;
