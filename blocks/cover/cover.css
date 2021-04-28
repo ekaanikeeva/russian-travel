@@ -2,34 +2,34 @@
     margin: 0 auto;
     position: relative;
     max-width: 1184px;
-    min-height: 740px;
+    min-height: 100%;
     overflow: hidden;
+    background-image: url(../../images/__background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 @media all and (max-width: 1184px) {
     .cover {
         margin: 92px -48px;
-        min-height: 640px;
     }
 }
 
 @media all and (max-width: 1023px) {
     .cover {
         margin: 90px -48px 88px;
-        min-height: 480px;
     }
 }
 
 @media all and (max-width: 768px) {
     .cover {
         margin: 90px -24px 64px;
-        min-height: 350px;
     }
 }
 
 @media all and (max-width: 320px) {
     .cover {
         margin: 66px -16px 64px;
-        min-height: 200px;
     }
 }

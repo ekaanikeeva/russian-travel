@@ -1,14 +1,22 @@
-.cards__url_text {
+.cards__url_type_link {
     font-family: Inter, Arial, Helvetica, sans-serif;
+    max-width: 984px;
+    max-height: 584px;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 18px;
+    text-decoration-line: underline;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
-    color: #AAAAAA;
-    margin: 0 0 12px;
+    color: #FFFFFF;
+    margin: 0;
     padding: 0;
+    transition: opacity 0.3s ease;
+}
+
+.cards__url_type_link:hover {
+    opacity: 0.8;
 }
