@@ -1,0 +1,12 @@
+.header__link_lang_en {
+    text-decoration: none;
+    grid-column: -1 / -2;
+    align-self: end;
+}
+
+@media screen and (max-width: 320px) {
+    .header__link_lang_en {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}

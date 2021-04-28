@@ -1,0 +1,31 @@
+.header__link {
+    color: #FFFFFF;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    max-width: 30px;
+    max-height: 28px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    transition: opacity 0.5s linear;
+}
+
+.header__link:hover {
+    opacity: 0.8;
+}
+
+.header__link:focus {
+    text-decoration: underline;
+}
+
+@media all and (max-width: 320px) {
+    .header__link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}

@@ -1,0 +1,13 @@
+.header__link_lang_ru {
+    padding-right: 18px;
+    grid-column: -2 / -3;
+    align-self: end;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 320px) {
+    .header__link_lang_ru {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}

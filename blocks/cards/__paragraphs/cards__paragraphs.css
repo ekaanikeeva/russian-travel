@@ -1,0 +1,11 @@
+.cards__paragraphs {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+@media all and (max-width: 425px) {
+    .cards__paragraphs {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+}
