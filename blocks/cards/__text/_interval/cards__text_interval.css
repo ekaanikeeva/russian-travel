@@ -1,10 +1,10 @@
-.cards__text-interval {
+.cards__text_interval {
     display: block;
     padding-top: 26px;
 }
 
 @media all and (max-width: 768px) {
-    .cards__text-interval {
+    .cards__text_interval {
         padding-top: 25px;
     }
 }
