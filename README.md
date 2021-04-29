@@ -23,7 +23,7 @@
 
   **GitHub**
 
-- [Ссылка на GitHub Pages](https://github.com/ekaanikeeva/russian-travel)
+- [Ссылка на GitHub Pages](https://ekaanikeeva.github.io/russian-travel/)
 
   **Figma**
 

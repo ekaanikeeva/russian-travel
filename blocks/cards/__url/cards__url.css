@@ -4,7 +4,7 @@
     align-self: end;
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 550px) {
     .cards__url {
         grid-column: 1 / 2;
         grid-row: 2 / 3;

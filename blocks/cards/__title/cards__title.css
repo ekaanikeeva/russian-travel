@@ -17,19 +17,18 @@
     grid-row: 1 / 2;
 }
 
+@media all and (min-width: 769px) and (max-width: 940px){
+    .cards__title {
+        font-size: 6vw;
+        line-height: inherit;
+    }
+}
+
 @media all and (max-width: 768px) {
     .cards__title {
         font-size: 42px;
         line-height: 46px;
         word-spacing: 9px;
-        align-self: start;
-    }
-}
-
-@media all and (max-width: 767px) {
-    .cards__title {
-        font-size: 8vw;
-        line-height: inherit;
         align-self: start;
     }
 }

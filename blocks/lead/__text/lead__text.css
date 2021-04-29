@@ -13,4 +13,7 @@
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
+    letter-spacing: 0.15em;
+    /* сбросила стиль по умолчанию display:block у figcapture  */
+    display: inline;
 }
