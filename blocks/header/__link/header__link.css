@@ -23,10 +23,6 @@
     opacity: 0.8;
 }
 
-.header__link:focus {
-    text-decoration: underline;
-}
-
 @media all and (max-width: 320px) {
     .header__link {
         font-size: 18px;
